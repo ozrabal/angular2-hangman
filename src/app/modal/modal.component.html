@@ -1,0 +1,5 @@
+<div class="overlay" *ngIf="message">
+    <h1>{{message}}</h1>
+    <p *ngIf="word">Searched word is: {{ word }}</p>
+    <a class="btn" href="#" (click)="newGame($event)">New</a>
+</div>

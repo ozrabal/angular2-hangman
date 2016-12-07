@@ -1,0 +1,8 @@
+<app-modal [message]="message" [word]="searchword" (onClickNew)="onClickNew($event)"></app-modal>
+<app-man [wrongLetters]="wrongLetters"></app-man>
+<app-missed-letters [wrongLetters]="wrongLetters"></app-missed-letters>
+<section class="word">
+  <div class="letter" *ngFor="let letter of word" >
+    <span *ngIf="isCorrect(letter)" >{{ letter }}</span>
+  </div>
+</section>
