@@ -27,3 +27,4 @@ import { ModalComponent } from './modal/modal.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
