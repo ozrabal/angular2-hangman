@@ -1,6 +1,6 @@
 # Hangman
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.21.
+This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.21 and [updated to version 1.2.0](https://github.com/angular/angular-cli/wiki/stories-1.0-update).
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
